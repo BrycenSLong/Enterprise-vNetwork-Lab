@@ -50,17 +50,19 @@ The objective of this project is to build, configure, and monitor a functional c
 ```
 
 ## Lab Modules & Documentation
-1. Installation Guides (/labs/installation-Guides/)
 
-    Lab 01: Windows Server 2022 Deployment — Hypervisor resource allocation, ISO setup, and initial base installation.
-2. Configurations (/labs/configurations/)
+### 1. Installation Guides (`/labs/installation-Guides/`)
+* **[Lab 01: Windows Server 2022 Deployment](./labs/installation-Guides/Lab01-WinServer2022-Install.md)** — Hypervisor resource allocation, ISO setup, and initial base installation.
 
-    Lab 02: Static Networking & Hostname Provisioning
+### 2. Configurations (`/labs/configurations/`)
+
+* **[Lab 02: Static Networking, Hostname & AD DS Promotion](./labs/configurations/Lab02-StaticIP-ADDS-Promotion.md)** — Assigning static IPv4 address, updating server hostname, installing AD DS/DNS roles, and promoting server to a Domain Controller (`corp.local`).
 
     Lab 03: Active Directory Domain Services (AD DS) Promotion & Domain Controller Setup
 
     Lab 04: DHCP Server Configuration & User/OU Hierarchy Design
-3. Security & Testing (/labs/SecurityTesting/)
+  
+### 3. Security & Testing (`/labs/SecurityTesting/`)
 
     Lab 05: Windows Event Log Forwarding & Audit Policy Configuration
 
