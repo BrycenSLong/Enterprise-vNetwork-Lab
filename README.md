@@ -60,10 +60,12 @@ The objective of this project is to build, configure, and monitor a functional c
 
 * **[Lab 03: DHCP Server Setup & Scope Configuration](./labs/configurations/Lab03-DHCP-Server-Setup.md)** — Installing DHCP Server role, AD authorization, and configuring client subnet options.
 
-    Lab 04: DHCP Server Configuration & User/OU Hierarchy Design
+* **Lab 04:** Active Directory OU Hierarchy & User Account Provisioning
+* **Lab 05:** Joining Client Workstations to Domain & Testing DHCP
   
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
+*Coming soon!*
 
-    Lab 05: Windows Event Log Forwarding & Audit Policy Configuration
+    Lab 07: Windows Event Log Forwarding & Audit Policy Configuration
 
-    Lab 06: Enterprise Telemetry & Threat Detection Testing
+    Lab 08: Enterprise Telemetry & Threat Detection Testing
