@@ -39,12 +39,15 @@ The objective of this project is to build, configure, and monitor a functional c
 * *Security Telemetry: Endpoint auditing, log collection, and network traffic monitoring*
 
 ## Directory Structure
+
+``
 .
 ├── README.md
 └── labs/
     ├── installation-Guides/      # Base OS deployments and software installation steps
     ├── configurations/           # Network routing, AD DS promotion, GPO, and service setups
     └── SecurityTesting/          # Attack simulations, log parsing, audit rules, and SIEM analysis
+``
 
 ## Lab Modules & Documentation
 1. Installation Guides (/labs/installation-Guides/)
