@@ -58,7 +58,7 @@ The objective of this project is to build, configure, and monitor a functional c
 
 * **[Lab 02: Static Networking, Hostname & AD DS Promotion](./labs/configurations/Lab02-StaticIP-ADDS-Promotion.md)** — Assigning static IPv4 address, updating server hostname, installing AD DS/DNS roles, and promoting server to a Domain Controller (`corp.local`).
 
-    Lab 03: Active Directory Domain Services (AD DS) Promotion & Domain Controller Setup
+* **[Lab 03: DHCP Server Setup & Scope Configuration](./labs/configurations/Lab03-DHCP-Server-Setup.md)** — Installing DHCP Server role, AD authorization, and configuring client subnet options.
 
     Lab 04: DHCP Server Configuration & User/OU Hierarchy Design
   
