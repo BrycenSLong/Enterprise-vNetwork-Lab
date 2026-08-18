@@ -60,7 +60,9 @@ The objective of this project is to build, configure, and monitor a functional c
 
 * **[Lab 03: DHCP Server Setup & Scope Configuration](./labs/configurations/Lab03-DHCP-Server-Setup.md)** — Installing DHCP Server role, AD authorization, and configuring client subnet options.
 
-* **Lab 04:** Active Directory OU Hierarchy & User Account Provisioning
+* **[Lab 04: Active Directory OU Hierarchy & Account Provisioning](./labs/configurations/Lab04-AD-OU-Hierarchy-Account-Provisioning.md)** — Building enterprise OU architecture, configuring RBAC security groups, and provisioning user accounts.
+
+*Coming soon!*
 * **Lab 05:** Joining Client Workstations to Domain & Testing DHCP
   
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
