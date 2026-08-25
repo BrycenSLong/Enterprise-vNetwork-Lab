@@ -63,7 +63,7 @@ The objective of this project is to build, configure, and monitor a functional c
 * **[Lab 04: Active Directory OU Hierarchy & Account Provisioning](./labs/configurations/Lab04-AD-OU-Hierarchy-Account-Provisioning.md)** — Building enterprise OU architecture, configuring RBAC security groups, and provisioning user accounts.
 
 *Coming soon!*
-* **Lab 05:** Joining Client Workstations to Domain & Testing DHCP
+* **[Lab 05: Enterprise Endpoint Deployment, Domain Join & DHCP Verification](./labs/configurations/Lab05-Domain-Join-and-DHCP-Verification.md)** — Provisioning Windows Enterprise client, internal network configuration (`CorpLabNet`), domain join to `corp.local`, domain user authentication testing, and active lease verification.
   
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
 *Coming soon!*
