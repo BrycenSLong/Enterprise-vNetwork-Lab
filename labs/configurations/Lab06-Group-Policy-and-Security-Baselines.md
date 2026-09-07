@@ -79,6 +79,7 @@ corp.local
    Confirm `GPO_Workstation_Audit_Policy` and `GPO_PowerShell_Logging` are listed under **Applied Group Policy Objects**.
 
 ***You should see this as a command line result:***
+
 ![GPResult Verification on CORP-WIN10](./images/lab06-gpresult-verification.png)
 
 ---
@@ -99,7 +100,9 @@ corp.local
    * Look for **Event ID 4104** (Script Block Logging) to confirm raw code block capture.
 
 ***You Should see something like this in Event Viewer for the Applications and Services Logs:***
+
 ![GPResult Verification on CORP-WIN10](./images/lab06-PowershellLog-verification.png)
+
 ---
 
 ## Troubleshooting & Edge Cases
