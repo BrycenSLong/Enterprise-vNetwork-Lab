@@ -44,7 +44,7 @@ This lab details the configuration of Windows Event Forwarding (WEF) in `corp.lo
    ```cmd
    wecutil qc /q
    ```
-   [lab07-InitializeWEC.png](imageLinkHere)
+   ![lab07-InitializeWEC.png](imageLinkHere)
 4. Verify the `wecsvc` service is running:
    ```powershell
    Get-Service wecsvc
@@ -57,7 +57,7 @@ This lab details the configuration of Windows Event Forwarding (WEF) in `corp.lo
    ```cmd
    winrm quickconfig -q
    ```
-   [lab07-VerifyWECSVC&ConfWinRM.png](imageLinkHere)
+   ![lab07-VerifyWECSVC&ConfWinRM.png](imageLinkHere)
    
 2. Grant the **Network Service** account read permissions to the Security log on forwarders (enforced via GPO or local configuration):
    * Open `gpmc.msc` and edit `GPO_Workstation_Audit_Policy`.
@@ -144,7 +144,7 @@ This lab details the configuration of Windows Event Forwarding (WEF) in `corp.lo
    * Confirm events from `CORP-WIN10.corp.local` appear with **Event ID 4688** and **Event ID 4104**.
 
   Expected Forwarded Log output:
-  [lab07-ForwardedLogResult.png](imageLinkHere)
+  ![lab07-ForwardedLogResult.png](imageLinkHere)
 ---
 
 ## Troubleshooting & Common Pitfalls
