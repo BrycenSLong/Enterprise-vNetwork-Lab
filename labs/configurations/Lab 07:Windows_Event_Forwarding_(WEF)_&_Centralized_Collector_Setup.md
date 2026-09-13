@@ -137,7 +137,6 @@ This lab details the configuration of Windows Event Forwarding (WEF) in `corp.lo
 4. Generate test telemetry on `CORP-WIN10`:
    ```powershell
    whoami /priv
-   Get-Process
    ```
 5. Switch back to `CORP-DC01`:
    * Open **Event Viewer** -> expand **Windows Logs** -> click **Forwarded Events**.
