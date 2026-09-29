@@ -68,7 +68,7 @@ The objective of this project is to build, configure, and monitor a functional c
 *  
 * **[Lab 07: Windows Event Forwarding (WEF) Infrastructure](./labs/configurations/Lab07:Windows_Event_Forwarding_(WEF)_&_Centralized_Collector_Setup.md)** - WEF, WEC, WinRM, Subscription Manager
 *  
-* **[Lab 08: Wazuh SIEM Ingestion & Threat Detection](./labs/configurations/Lab08-Wazuh-SIEM-Ingestion.md)** - Wazuh Manager, OpenSearch, Xfce Linux, Agents | `In Progress` |
+* **[Lab 08: Wazuh SIEM Ingestion & Threat Detection](./labs/configurations/Lab08:Wazuh-EDR-VM-set-up,agent-installation,and-log-verification.md)** - Wazuh Manager, OpenSearch, Xfce Linux, Agents | `In Progress` |
   
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
 *Coming soon!*
