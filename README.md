@@ -64,8 +64,8 @@ The objective of this project is to build, configure, and monitor a functional c
 
 * **[Lab 05: Enterprise Endpoint Deployment, Domain Join & DHCP Verification](./labs/configurations/Lab05-Domain-Join-and-DHCP-Verification.md)** — Provisioning Windows Enterprise client, internal network configuration (`CorpLabNet`), domain join to `corp.local`, domain user authentication testing, and active lease verification.
 
-* **[Lab 06: Local Audit Policy Enforcement & Cache Cleanup](./labs/configurations/Lab06-Group-Policy-and-Security-Baselines.md)** - `auditpol`, GPO Overrides, Local Security Policy
-*  
+* **[Lab 06: Local Audit Policy Enforcement & Cache Cleanup](./labs/configurations/Lab06-Group-Policy-and-Security-Baselines.md)** - Establishing, configuring, and enforcing GPO's along with blocked PowerShell usage logging configuration and deployment.
+
 * **[Lab 07: Windows Event Forwarding (WEF) Infrastructure](./labs/configurations/Lab07:Windows_Event_Forwarding_(WEF)_&_Centralized_Collector_Setup.md)** - WEF, WEC, WinRM, Subscription Manager
 *  
 * **[Lab 08: Wazuh SIEM Ingestion & Threat Detection](./labs/configurations/Lab08:Wazuh-EDR-VM-set-up,agent-installation,and-log-verification.md)** - Wazuh Manager, OpenSearch, Xfce Linux, Agents | `In Progress` |
