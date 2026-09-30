@@ -67,7 +67,7 @@ The objective of this project is to build, configure, and monitor a functional c
 * **[Lab 06: Local Audit Policy Enforcement & Cache Cleanup](./labs/configurations/Lab06-Group-Policy-and-Security-Baselines.md)** - Establishing, configuring, and enforcing GPO's along with blocked PowerShell usage logging configuration and deployment.
 
 * **[Lab 07: Windows Event Forwarding (WEF) Infrastructure](./labs/configurations/Lab07:Windows_Event_Forwarding_(WEF)_&_Centralized_Collector_Setup.md)** - WEF, WEC, WinRM, Subscription Manager  Configuring process creation and PowerShell logs to be sent to the Domain controller for Security Telementary.
-*  
+  
 * **[Lab 08: Wazuh SIEM Ingestion & Threat Detection](./labs/configurations/Lab08:Wazuh-EDR-VM-set-up,agent-installation,and-log-verification.md)** - Wazuh Manager, OpenSearch, Xfce Linux, Agents | `In Progress` |
   
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
