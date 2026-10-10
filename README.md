@@ -34,7 +34,7 @@ The objective of this project is to build, configure, and monitor a functional c
 
 * *Directory Services: Active Directory Domain Services (AD DS), Group Policy Management, DNS/DHCP*
 
-* *Target Nodes: Windows Server 2022, Windows 10/11 Domain Clients*
+* *Target Nodes: Windows Server 2022, Windows 10/11 Domain Clients, Mint Linux EDR Server*
 
 * *Security Telemetry: Endpoint auditing, log collection, and network traffic monitoring*
 
@@ -73,6 +73,8 @@ The objective of this project is to build, configure, and monitor a functional c
 ### 3. Security & Testing (`/labs/SecurityTesting/`)
 *Coming soon!*
 
-    Lab 07: Windows Event Log Forwarding & Audit Policy Configuration
+    Lab 09: Successful Phishing Simulation (After Security Stack Baseline, Attack Box, C2 Server, Network Firewall, and Email Firewall Configuration and Deployment)
 
-    Lab 08: Enterprise Telemetry & Threat Detection Testing
+    Lab 10: MFA Evasion (After Multi Factor Authentication Layer is Completed)
+
+    Lab 11: Autopsy Post IR Investigation (Waiting Until Virtual Machine Network and Security Program is Matured)
