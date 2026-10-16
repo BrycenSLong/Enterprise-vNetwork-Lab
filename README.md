@@ -1,8 +1,10 @@
 # Enterprise Network Security & Administration Labs
 
 [![Lab Environment](https://img.shields.io/badge/Environment-Oracle%20VirtualBox-blue)](https://www.virtualbox.org/)
-[![OS](https://img.shields.io/badge/Server%20OS-Windows%20Server%202022-0078D6)](https://www.microsoft.com/evalcenter/download-windows-server-2022)
-[![Focus](https://img.shields.io/badge/Focus-Active%20Directory%20%7C%20SOC%20Telemetry-red)](#)
+[![Windows Server](https://img.shields.io/badge/OS-Windows%20Server%202022-0078D6)](https://www.microsoft.com/evalcenter/download-windows-server-2022)
+[![Linux Mint](https://img.shields.io/badge/OS-Linux%20Mint-87CF3E)](https://linuxmint.com/)
+[![SIEM](https://img.shields.io/badge/SIEM-Wazuh-00A4E4)](https://wazuh.com/)
+[![Focus](https://img.shields.io/badge/Focus-Active%20Directory%20%7C%20Wazuh%20SIEM%20%7C%20SOC%20Telemetry-red)](#)
 
 ## Overview
 
