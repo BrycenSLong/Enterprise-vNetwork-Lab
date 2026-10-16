@@ -17,19 +17,19 @@ The objective of this project is to build, configure, and monitor a functional c
 ## Network Architecture & Lab Stack
 
 ```text
-               +----------------------------------+
-               |        Oracle VirtualBox         |
-               +----------------------------------+
-                                |
-        +-----------------------+-----------------------+
-        |                                               |
-+-------------------------------+               +-------------------------------+
-|     Identity & Directory      |               |     Security & Telemetry      |
-|                               |               |                               |
-| • Windows Server 2022 AD DS   |               | • SIEM / Log Ingestion        |
-| • DNS & DHCP Server Roles     |               | • Endpoint Audit Rules        |
-| • Group Policy Objects (GPO)  |               | • IDS Network Sensors         |
-+-------------------------------+               +-------------------------------+
+                                     +----------------------------------+
+                                     |        Oracle VirtualBox         |
+                                     +----------------------------------+
+                                                      |
+        +---------------------------------------------+--------------------------------------+
+        |                                             |                                      |
++-------------------------------+       +-------------------------------+      +---------------------------------+
+|     Identity & Directory      |       |     Security & Telemetry      |      |      Windows Endpoint (DCO1)    |
+|                               |       |                               |      |                                 |
+| • Windows Server 2022 AD DS   |       | • SIEM / Log Ingestion        |      |                                 |
+| • DNS & DHCP Server Roles     |       | • Endpoint Audit Rules        |      |                                 |
+| • Group Policy Objects (GPO)  |       | • IDS Network Sensors         |      |                                 |
++-------------------------------+       +-------------------------------+      +---------------------------------+
 ```
 
 * *Hypervisor: Oracle VM VirtualBox*
