@@ -167,4 +167,49 @@ sudo bash ./wazuh-install.sh -a
 
 ## Phase 4: Agent Installation
 
+``NOTE: To run the Wazuh agent installation command, add a NAT network adapter to CorpNet-Client01 before turning on the VM. To ensure the network is off the internet and remains sanitary, turn off the NAT network adapter when we are done. Also ensure the Active Directory server is powered on or both the Wazuh server and the CorpNet-Client01 WILL NOT be able to connect to eachother.``
+
+    1. On the dashboard, select the 3 lines stacked on top of eachother in the top left to bring up the navigation bar.
+    2. Select `Endpoint Security` and click `Configuration Assesment` from the options that appeared below `Endpoint Security`.
+    3. In the middle of the webpage, select `Deploy new agent`.
+    4. Since we are deploying the Wazuh agent on DC01, select the `Windows` option.
+    5. For the next step of the agent set up, enter in the IPv4 Address tied to the internal network card and ensure `Remember server address` is enabled. We want to use the address tied to the internal network virtual NIC card specifically so that way the computer's with agents installed on them can communicate with `CorpWazuhServer01` without requiring a live internet connection.
+    6. For agent Name, Enter in `CornNet-Client01-Agent`.
+    7. Copy and Run the generated command that the Wazuh dashboard asks you to run on the intended computer that you wish to monitor. We are running this on CornNet-Client01 in this lab. 
+
+This is an example command that the wazuh dashboard will set up:
+
+```PowerShell
+
+Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.9.2-1.msi -OutFile $env:tmp\wazuh-agent.msi; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='192.168.1.101' WAZUH_AGENT_NAME='CornNet-Client01-Agent'
+
+```
+
+    8. Run this command to start the Wazuh service:
+
+```PowerShell
+
+NET START WazuhSvc
+
+```
+
 ## Phase 5: Verify Correct Configurations
+    1. Check the Wazuh service status by running this command on CorpNet-Client01:
+
+```PowerShell
+
+Get-Service WazuhSvc
+
+```
+
+    2. Check the agent connection state:
+
+```PowerShell
+
+Select-String -Path "C:\Program Files (x86)\ossec-agent\wazuh-agent.state" -Pattern "^status"
+
+```
+
+    3. Once both show the state show connected and running, refresh your browser on `CorpWazuhServer` to verify the agent is connected.
+    4. Select Events and you should be able to see logs from your endpoint device.
+    5. Take a Snapshot of both `CorpNet-Client01` and `WazuhServer01` to ensure we have a backup of the baseline configuration of our EDR set up.
