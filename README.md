@@ -49,7 +49,8 @@ The objective of this project is to build, configure, and monitor a functional c
 |   ├── installation-Guides/      # Base OS deployments and software installation steps
 |   ├── configurations/           # Network routing, AD DS promotion, GPO, and service setups
 |   └── SecurityTesting/          # Attack simulations, log parsing, audit rules, and SIEM analysis
-|
+└── backup&Deployments/
+|   └── extraction                # How each extraction script or method was built/done
 └── scripts/
     └── export-baselines/         # Baseline Export scripts
         └── export-baseline-CorpNet-WinServ2022.ps1
