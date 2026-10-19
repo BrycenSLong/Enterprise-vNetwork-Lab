@@ -51,7 +51,8 @@ The objective of this project is to build, configure, and monitor a functional c
 |   └── SecurityTesting/          # Attack simulations, log parsing, audit rules, and SIEM analysis
 |
 └── scripts/
-    └── export-baseline-CorpNet-WinServ2022.ps1
+    └── export-baselines/         # Baseline Export scripts
+        └── export-baseline-CorpNet-WinServ2022.ps1
 ```
 
 ## Lab Modules & Documentation
