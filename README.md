@@ -46,9 +46,12 @@ The objective of this project is to build, configure, and monitor a functional c
 .
 ├── README.md
 └── labs/
-    ├── installation-Guides/      # Base OS deployments and software installation steps
-    ├── configurations/           # Network routing, AD DS promotion, GPO, and service setups
-    └── SecurityTesting/          # Attack simulations, log parsing, audit rules, and SIEM analysis
+|   ├── installation-Guides/      # Base OS deployments and software installation steps
+|   ├── configurations/           # Network routing, AD DS promotion, GPO, and service setups
+|   └── SecurityTesting/          # Attack simulations, log parsing, audit rules, and SIEM analysis
+|
+└── scripts/
+    └── export-baseline-CorpNet-WinServ2022.ps1
 ```
 
 ## Lab Modules & Documentation
